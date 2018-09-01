@@ -5,6 +5,10 @@
   "repository": "https://github.com/cajosaso/clima-fake-server",
   "author": "jisbruzzi <jose.sbru@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start":"node node_modules/.bin/json-server db.json"
+    
+  },
   "dependencies": {
     "json-server": "^0.14.0"
   }

@@ -1,4 +1,6 @@
 {
-    "saludo":"hola",
-    "veces":3
+    "cities":[
+        "Buenos Aires,AR",
+        "Peron,ID"
+    ]
 }
