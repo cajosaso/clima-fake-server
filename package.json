@@ -6,10 +6,12 @@
   "author": "jisbruzzi <jose.sbru@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start":"node node_modules/.bin/json-server db.json"
-    
+    "start": "node node_modules/.bin/json-server db.json",
+    "generate": "node generate-db.js"
   },
   "dependencies": {
-    "json-server": "^0.14.0"
+    "json-server": "^0.14.0",
+    "sleep": "^5.2.3",
+    "sync-request": "^6.0.0"
   }
 }
