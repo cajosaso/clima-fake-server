@@ -6,7 +6,7 @@
   "author": "jisbruzzi <jose.sbru@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node node_modules/.bin/json-server db.json",
+    "start":"node index.js",
     "generate": "node generate-db.js"
   },
   "dependencies": {

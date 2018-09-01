@@ -1,6 +1,521 @@
 {
-    "cities":[
-        "Buenos Aires,AR",
-        "Peron,ID"
-    ]
+  "cities": [
+    "Oranjestad,AW",
+    "Kabul,AF",
+    "Luanda,AO",
+    "The Valley,AI",
+    "Mariehamn,AX"
+  ],
+  "weather": {
+    "Oranjestad,AW": {
+      "current": {
+        "temp": 30,
+        "humidity": 74,
+        "sun": "day",
+        "icon": "04d"
+      },
+      "forecast": {
+        "now": "12:49-01-09-2018",
+        "forecast": [
+          {
+            "midnight": {
+              "day": "2018-09-01",
+              "time": "22",
+              "temp": 28.39,
+              "humidity": 97,
+              "icon": "02n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-02",
+              "time": "10",
+              "temp": 27.99,
+              "humidity": 96,
+              "icon": "04d"
+            },
+            "midnight": {
+              "day": "2018-09-02",
+              "time": "22",
+              "temp": 27.86,
+              "humidity": 97,
+              "icon": "01n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-03",
+              "time": "10",
+              "temp": 28.01,
+              "humidity": 96,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-03",
+              "time": "22",
+              "temp": 27.78,
+              "humidity": 97,
+              "icon": "03n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-04",
+              "time": "10",
+              "temp": 28,
+              "humidity": 96,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-04",
+              "time": "22",
+              "temp": 28.22,
+              "humidity": 96,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-05",
+              "time": "10",
+              "temp": 28.63,
+              "humidity": 93,
+              "icon": "03d"
+            },
+            "midnight": {
+              "day": "2018-09-05",
+              "time": "22",
+              "temp": 28.26,
+              "humidity": 96,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-06",
+              "time": "10",
+              "temp": 28.12,
+              "humidity": 96,
+              "icon": "04d"
+            },
+            "midnight": {
+              "day": "2018-09-06",
+              "time": "10",
+              "temp": 28.12,
+              "humidity": 96,
+              "icon": "04d"
+            }
+          }
+        ]
+      }
+    },
+    "Kabul,AF": {
+      "current": {
+        "temp": 25,
+        "humidity": 15,
+        "sun": "night",
+        "icon": "01n"
+      },
+      "forecast": {
+        "now": "21:19-01-09-2018",
+        "forecast": [
+          {
+            "midnight": {
+              "day": "2018-09-01",
+              "time": "22",
+              "temp": 19.88,
+              "humidity": 36,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-02",
+              "time": "10",
+              "temp": 18.85,
+              "humidity": 31,
+              "icon": "02d"
+            },
+            "midnight": {
+              "day": "2018-09-02",
+              "time": "22",
+              "temp": 13.05,
+              "humidity": 35,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-03",
+              "time": "10",
+              "temp": 18.99,
+              "humidity": 30,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-03",
+              "time": "22",
+              "temp": 14.38,
+              "humidity": 37,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-04",
+              "time": "10",
+              "temp": 21.41,
+              "humidity": 26,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-04",
+              "time": "22",
+              "temp": 14.1,
+              "humidity": 42,
+              "icon": "03n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-05",
+              "time": "10",
+              "temp": 21.25,
+              "humidity": 25,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-05",
+              "time": "22",
+              "temp": 14.21,
+              "humidity": 53,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-06",
+              "time": "10",
+              "temp": 20.51,
+              "humidity": 29,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-06",
+              "time": "19",
+              "temp": 17.52,
+              "humidity": 31,
+              "icon": "04n"
+            }
+          }
+        ]
+      }
+    },
+    "Luanda,AO": {
+      "current": {
+        "temp": 23,
+        "humidity": 78,
+        "sun": "day",
+        "icon": "01d"
+      },
+      "forecast": {
+        "now": "17:49-01-09-2018",
+        "forecast": [
+          {
+            "midnight": {
+              "day": "2018-09-01",
+              "time": "21",
+              "temp": 19.71,
+              "humidity": 95,
+              "icon": "01n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-02",
+              "time": "12",
+              "temp": 24.96,
+              "humidity": 81,
+              "icon": "10d"
+            },
+            "midnight": {
+              "day": "2018-09-02",
+              "time": "24",
+              "temp": 19,
+              "humidity": 98,
+              "icon": "02n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-03",
+              "time": "12",
+              "temp": 24.89,
+              "humidity": 81,
+              "icon": "02d"
+            },
+            "midnight": {
+              "day": "2018-09-03",
+              "time": "24",
+              "temp": 19.76,
+              "humidity": 99,
+              "icon": "02n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-04",
+              "time": "12",
+              "temp": 25.04,
+              "humidity": 80,
+              "icon": "10d"
+            },
+            "midnight": {
+              "day": "2018-09-04",
+              "time": "24",
+              "temp": 19.65,
+              "humidity": 100,
+              "icon": "10n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-05",
+              "time": "12",
+              "temp": 23.83,
+              "humidity": 82,
+              "icon": "02d"
+            },
+            "midnight": {
+              "day": "2018-09-05",
+              "time": "24",
+              "temp": 19.06,
+              "humidity": 100,
+              "icon": "02n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-06",
+              "time": "12",
+              "temp": 23.92,
+              "humidity": 81,
+              "icon": "03d"
+            },
+            "midnight": {
+              "day": "2018-09-06",
+              "time": "24",
+              "temp": 19.3,
+              "humidity": 99,
+              "icon": "10n"
+            }
+          }
+        ]
+      }
+    },
+    "The Valley,AI": {
+      "current": {
+        "temp": 31.04,
+        "humidity": 58,
+        "sun": "day",
+        "icon": "02d"
+      },
+      "forecast": {
+        "now": "12:49-01-09-2018",
+        "forecast": [
+          {
+            "midnight": {
+              "day": "2018-09-01",
+              "time": "22",
+              "temp": 28.37,
+              "humidity": 97,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-02",
+              "time": "10",
+              "temp": 28.09,
+              "humidity": 96,
+              "icon": "03d"
+            },
+            "midnight": {
+              "day": "2018-09-02",
+              "time": "22",
+              "temp": 27.26,
+              "humidity": 100,
+              "icon": "10n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-03",
+              "time": "10",
+              "temp": 27.76,
+              "humidity": 98,
+              "icon": "04d"
+            },
+            "midnight": {
+              "day": "2018-09-03",
+              "time": "22",
+              "temp": 27.63,
+              "humidity": 99,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-04",
+              "time": "10",
+              "temp": 27.8,
+              "humidity": 98,
+              "icon": "04d"
+            },
+            "midnight": {
+              "day": "2018-09-04",
+              "time": "22",
+              "temp": 27.57,
+              "humidity": 99,
+              "icon": "01n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-05",
+              "time": "10",
+              "temp": 27.08,
+              "humidity": 100,
+              "icon": "04d"
+            },
+            "midnight": {
+              "day": "2018-09-05",
+              "time": "22",
+              "temp": 27.66,
+              "humidity": 99,
+              "icon": "04n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-06",
+              "time": "10",
+              "temp": 26.97,
+              "humidity": 100,
+              "icon": "10d"
+            },
+            "midnight": {
+              "day": "2018-09-06",
+              "time": "10",
+              "temp": 26.97,
+              "humidity": 100,
+              "icon": "10d"
+            }
+          }
+        ]
+      }
+    },
+    "Mariehamn,AX": {
+      "current": {
+        "temp": 16,
+        "humidity": 87,
+        "sun": "day",
+        "icon": "04d"
+      },
+      "forecast": {
+        "now": "19:49-01-09-2018",
+        "forecast": [
+          {
+            "midnight": {
+              "day": "2018-09-01",
+              "time": "23",
+              "temp": 15.61,
+              "humidity": 100,
+              "icon": "10n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-02",
+              "time": "11",
+              "temp": 16.43,
+              "humidity": 97,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-02",
+              "time": "23",
+              "temp": 16.07,
+              "humidity": 99,
+              "icon": "01n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-03",
+              "time": "11",
+              "temp": 16.93,
+              "humidity": 95,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-03",
+              "time": "23",
+              "temp": 16.11,
+              "humidity": 100,
+              "icon": "10n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-04",
+              "time": "11",
+              "temp": 17.13,
+              "humidity": 95,
+              "icon": "02d"
+            },
+            "midnight": {
+              "day": "2018-09-04",
+              "time": "23",
+              "temp": 16.89,
+              "humidity": 97,
+              "icon": "03n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-05",
+              "time": "11",
+              "temp": 18.07,
+              "humidity": 91,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-05",
+              "time": "23",
+              "temp": 16.81,
+              "humidity": 98,
+              "icon": "02n"
+            }
+          },
+          {
+            "noon": {
+              "day": "2018-09-06",
+              "time": "11",
+              "temp": 17.39,
+              "humidity": 94,
+              "icon": "01d"
+            },
+            "midnight": {
+              "day": "2018-09-06",
+              "time": "17",
+              "temp": 17.17,
+              "humidity": 96,
+              "icon": "10d"
+            }
+          }
+        ]
+      }
+    }
+  }
 }

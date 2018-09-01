@@ -5,10 +5,12 @@ let sleep = require("sleep")
 
 let db={}
 normalRequest.get("http://localhost:3000/cities",function(error,response,body){
-    let cities=JSON.parse(body)
+    let cities=JSON.parse(body).filter((n)=>!n.includes(",AR"))
     db["cities"]=cities
     db["weather"]={}
     for (city of cities){
+        console.log("Voy a traer:")
+        console.log(city)
         db["weather"][city]={}
         let niceCity=city.split(" ").join("%20")
         /*
