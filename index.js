@@ -34,6 +34,6 @@ server.get('/cities/search/:query', (req, res) =>{
 
 
 server.use(router)
-server.listen(3010, () => {
+server.listen(process.env.port || 3010, () => {
   console.log('JSON Server is running')
 })
