@@ -33,6 +33,40 @@ server.get('/cities/search/:query', (req, res) =>{
     
 })
 
+server.get('/weather/:city/forecast', (req, res) =>{
+    let entry=db["weather"][req.params.city]["forecast"]
+    let forecasts=entry["forecast"]
+    let shallowForecasts=forecasts.map((tkr)=>{
+        let ret={}
+        if(tkr["noon"]){
+            ret = {
+                "noonDay":tkr.noon.day,
+                "noonTime":tkr.noon.time,
+                "noonTemp":tkr.noon.temp,
+                "noonHumidity":tkr.noon.humidity,
+                "noonIcon":tkr.noon.icon
+            }
+        }else{
+            ret = {
+                "noonDay":null,
+                "noonTime":null,
+                "noonTemp":null,
+                "noonHumidity":null,
+                "noonIcon":null
+            }
+        }
+
+        ret.midnightDay=tkr.midnight.day
+        ret.midnightTime=tkr.midnight.time
+        ret.midnightHumidity=tkr.midnight.humidity
+        ret.midnightIcon=tkr.midnight.icon
+
+        return ret
+
+    })
+    res.send({now:entry["now"],forecast:shallowForecasts})
+})
+
 
 server.use(router)
 server.listen(process.env.PORT || 3010, () => {
