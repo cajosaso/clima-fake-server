@@ -28,12 +28,16 @@ server.get('/cities/search/:query', (req, res) =>{
 
     }catch(e){
         res.sendStatus(500)
+        console.log(e)
     }
     
 })
 
-
-server.use(router)
-server.listen(process.env.port || 3010, () => {
-  console.log('JSON Server is running')
-})
+try{
+    server.use(router)
+    server.listen(process.env.port || 3010, () => {
+        console.log('JSON Server is running')
+    })
+}catch(e){
+    console.log(e)
+}
