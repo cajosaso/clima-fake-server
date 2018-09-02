@@ -7,7 +7,7 @@ let db={}
 let badCities=[]
 normalRequest.get("http://localhost:3000/cities",function(error,response,body){
     let cities=JSON.parse(body)//.filter((n)=>!n.includes(",AR") || n.includes("Buenos Aires")).slice(0,100)
-    db["cities"]=cities
+    db["cities"]={"data":cities}
     db["weather"]={}
     for (city of cities){
         console.log("Voy a traer:")

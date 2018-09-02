@@ -11,7 +11,7 @@ function acceptedBy(query,name){
 }
 server.get('/cities/search/:query', (req, res) =>{
     try{
-        let cities=db.cities;
+        let cities=db.cities.data;
         console.log(cities)
         let begin=cities.filter((name)=>acceptedBy("^"+req.params.query,name))
         begin=begin.sort()
@@ -24,7 +24,7 @@ server.get('/cities/search/:query', (req, res) =>{
         console.log(begin,others)
 
         
-        res.json([].concat(begin,others))
+        res.json({data:[].concat(begin,others)})
 
     }catch(e){
         res.sendStatus(500)
